@@ -1,0 +1,8 @@
+# NKT VPS Cron Examples
+# Install: crontab -e
+
+# Daily database backup at 02:00 UTC
+0 2 * * * cd /opt/nkt/nkt-vps-deploy && ENV_FILE=.env.production deployment/scripts/backup-db.sh >> /var/log/nkt-backup.log 2>&1
+
+# Disk check weekly
+0 8 * * 1 df -h | mail -s "NKT VPS Disk" admin@YOUR_DOMAIN

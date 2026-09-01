@@ -1,0 +1,39 @@
+{
+    "roomCode":  "HLHRVK",
+    "roomId":  "ee819ab7-c420-4a91-9b93-36bc873ee82c",
+    "categoryId":  "cat-korku",
+    "categoryName":  "Korku",
+    "gameId":  "79899157-4a09-4021-a299-8700680e483b",
+    "roundChecks":  [
+                        {
+                            "round":  1,
+                            "actor":  "p3_j2",
+                            "role":  "responder",
+                            "type":  "question",
+                            "before":  "{\"playerId\":\"7a0e43aa-a1f5-4fd7-bddd-e18498886b02\",\"score\":0,\"rank\":0}",
+                            "after":  "{\"playerId\":\"7a0e43aa-a1f5-4fd7-bddd-e18498886b02\",\"score\":0,\"rank\":0}",
+                            "stageAfter":  5,
+                            "statusAfter":  "active"
+                        },
+                        {
+                            "round":  2,
+                            "actor":  "phase29_1788270820",
+                            "role":  "responder",
+                            "type":  "question",
+                            "before":  "{\"playerId\":\"7a0e43aa-a1f5-4fd7-bddd-e18498886b02\",\"score\":0,\"rank\":0}",
+                            "after":  "[{\"playerId\":\"7a0e43aa-a1f5-4fd7-bddd-e18498886b02\",\"score\":0,\"rank\":0},{\"playerId\":\"d346e562-6d2d-46db-96a8-403957e6c7b2\",\"score\":0,\"rank\":0}]",
+                            "stageAfter":  6,
+                            "statusAfter":  "active"
+                        },
+                        {
+                            "round":  3,
+                            "actor":  "p3_j2",
+                            "role":  "responder",
+                            "type":  "question",
+                            "before":  "[{\"playerId\":\"7a0e43aa-a1f5-4fd7-bddd-e18498886b02\",\"score\":0,\"rank\":0},{\"playerId\":\"d346e562-6d2d-46db-96a8-403957e6c7b2\",\"score\":0,\"rank\":0}]",
+                            "after":  "[{\"playerId\":\"d346e562-6d2d-46db-96a8-403957e6c7b2\",\"score\":0,\"rank\":0},{\"playerId\":\"7a0e43aa-a1f5-4fd7-bddd-e18498886b02\",\"score\":0,\"rank\":0}]",
+                            "stageAfter":  7,
+                            "statusAfter":  "active"
+                        }
+                    ]
+}

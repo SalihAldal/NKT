@@ -1,0 +1,37 @@
+{
+  "version": "2026.1",
+  "total": 6000,
+  "generatedAt": "2026-08-27T22:06:00.448Z",
+  "byCategory": {
+    "cat-korku": 300,
+    "cat-cesaret": 300,
+    "cat-taniyorsun": 300,
+    "cat-utandiran": 300,
+    "cat-gece": 300,
+    "cat-ask-iliski": 300,
+    "cat-itiraf": 300,
+    "cat-parti": 300,
+    "cat-eglence": 300,
+    "cat-black-humor": 300,
+    "cat-tuhaf-absurt": 300,
+    "cat-zor-sorular": 300,
+    "cat-film": 300,
+    "cat-muzik": 300,
+    "cat-spor": 300,
+    "cat-oyun": 300,
+    "cat-cocukluk": 300,
+    "cat-18": 300,
+    "cat-kim-daha": 300,
+    "cat-arkadaslik-krizi": 300
+  },
+  "byType": {
+    "question": 4680,
+    "challenge": 885,
+    "performance": 435
+  },
+  "byDifficulty": {
+    "1": 2000,
+    "2": 2000,
+    "3": 2000
+  }
+}

@@ -1,0 +1,885 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─── Enums ───────────────────────────────────────────────
+
+enum UserStatus {
+  ACTIVE
+  SUSPENDED
+  WARNED
+  DELETED
+}
+
+enum AccountType {
+  REGISTERED
+  GUEST
+  GUEST_LINKED
+}
+
+enum AuthProvider {
+  EMAIL
+  APPLE
+  GOOGLE
+  GUEST
+}
+
+enum FriendshipStatus {
+  PENDING
+  ACCEPTED
+  DECLINED
+  CANCELLED
+}
+
+enum QuizStatus {
+  DRAFT
+  PUBLISHED
+  PRIVATE
+  DELETED
+}
+
+enum QuizVisibility {
+  PUBLIC
+  FRIENDS
+  PRIVATE
+}
+
+enum ContentType {
+  QUESTION
+  CHALLENGE
+  PERFORMANCE
+}
+
+enum ContentModerationStatus {
+  DRAFT
+  REVIEW
+  APPROVED
+  ACTIVE
+  REJECTED
+  DISABLED
+}
+
+enum RoomStatus {
+  LOBBY
+  PLAYING
+  COMPLETED
+  EXPIRED
+  CLOSED
+}
+
+enum GameStatus {
+  ACTIVE
+  COMPLETED
+  ABORTED
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  EXPIRED
+  GRACE
+  REVOKED
+  PENDING
+}
+
+enum PurchaseState {
+  COMPLETED
+  PENDING
+  FAILED
+  REFUNDED
+  DUPLICATE
+}
+
+enum NotificationType {
+  FRIEND_REQUEST
+  QUIZ
+  ROOM
+  GAME
+  RESULT
+  PREMIUM
+  SYSTEM
+  MARKETING
+}
+
+enum ReportStatus {
+  OPEN
+  INVESTIGATING
+  RESOLVED
+  REJECTED
+  ESCALATED
+}
+
+enum ReportPriority {
+  LOW
+  MEDIUM
+  HIGH
+  CRITICAL
+}
+
+enum SupportStatus {
+  OPEN
+  PENDING
+  RESOLVED
+  CLOSED
+}
+
+enum AdminRole {
+  SUPER_ADMIN
+  ADMIN
+  MODERATOR
+  CONTENT_MANAGER
+  SUPPORT
+  ANALYST
+}
+
+enum PaymentEventStatus {
+  RECEIVED
+  PROCESSED
+  FAILED
+  DUPLICATE
+}
+
+// ─── Users & Auth ──────────────────────────────────────
+
+model User {
+  id              String      @id @default(uuid())
+  status          UserStatus  @default(ACTIVE)
+  accountType     AccountType @default(REGISTERED) @map("account_type")
+  isPremium       Boolean     @default(false) @map("is_premium")
+  warningCount    Int         @default(0) @map("warning_count")
+  contentRestricted Boolean   @default(false) @map("content_restricted")
+  inviteRestricted  Boolean   @default(false) @map("invite_restricted")
+  roomRestricted    Boolean   @default(false) @map("room_restricted")
+  ageVerified18     Boolean   @default(false) @map("age_verified_18")
+  createdAt       DateTime    @default(now()) @map("created_at")
+  updatedAt       DateTime    @updatedAt @map("updated_at")
+  lastActiveAt    DateTime    @default(now()) @map("last_active_at")
+  deletedAt       DateTime?   @map("deleted_at")
+
+  profile         UserProfile?
+  identities      AuthIdentity[]
+  sessions        UserSession[]
+  friendshipsSent Friendship[] @relation("FriendshipRequester")
+  friendshipsRecv Friendship[] @relation("FriendshipReceiver")
+  blocksSent      FriendBlock[] @relation("Blocker")
+  blocksRecv      FriendBlock[] @relation("Blocked")
+  quizzes         Quiz[]
+  quizResults     QuizResult[]
+  hostedRooms     Room[] @relation("RoomHost")
+  roomPlayers     RoomPlayer[]
+  gamePlayers     GamePlayer[]
+  subscriptions   Subscription[]
+  purchases       Purchase[]
+  entitlement     Entitlement?
+  notifications   Notification[]
+  notificationPrefs NotificationPreference?
+  reportsSent     Report[] @relation("Reporter")
+  supportTickets  SupportTicket[]
+  userBadges      UserBadge[]
+  customCategories CustomCategory[]
+  contentUsage    ContentUsage[]
+  analyticsEvents AnalyticsEvent[]
+
+  @@index([createdAt])
+  @@map("users")
+}
+
+model UserProfile {
+  userId      String  @id @map("user_id")
+  displayName String  @map("display_name")
+  username    String  @unique
+  bio         String?
+  avatarUrl   String? @map("avatar_url")
+  profileVisibility String @default("friends") @map("profile_visibility")
+  activitySharing   Boolean @default(true) @map("activity_sharing")
+  discoverable      Boolean @default(true)
+  leaderboardVisible Boolean @default(true) @map("leaderboard_visible")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([username])
+  @@map("user_profiles")
+}
+
+model AuthIdentity {
+  id           String       @id @default(uuid())
+  userId       String       @map("user_id")
+  provider     AuthProvider
+  providerId   String?      @map("provider_id")
+  email        String?
+  passwordHash String?      @map("password_hash")
+  createdAt    DateTime     @default(now()) @map("created_at")
+  updatedAt    DateTime     @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerId])
+  @@unique([provider, email])
+  @@map("auth_identities")
+}
+
+model UserSession {
+  id           String   @id @default(uuid())
+  userId       String   @map("user_id")
+  refreshToken String   @unique @map("refresh_token")
+  expiresAt    DateTime @map("expires_at")
+  revokedAt    DateTime? @map("revoked_at")
+  ipAddress    String?  @map("ip_address")
+  userAgent    String?  @map("user_agent")
+  createdAt    DateTime @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+  @@map("user_sessions")
+}
+
+// ─── Friends ───────────────────────────────────────────
+
+model Friendship {
+  id          String           @id @default(uuid())
+  requesterId String           @map("requester_id")
+  receiverId  String           @map("receiver_id")
+  status      FriendshipStatus @default(PENDING)
+  createdAt   DateTime         @default(now()) @map("created_at")
+  updatedAt   DateTime         @updatedAt @map("updated_at")
+
+  requester User @relation("FriendshipRequester", fields: [requesterId], references: [id], onDelete: Cascade)
+  receiver  User @relation("FriendshipReceiver", fields: [receiverId], references: [id], onDelete: Cascade)
+
+  @@unique([requesterId, receiverId])
+  @@index([requesterId])
+  @@index([receiverId])
+  @@index([status])
+  @@map("friendships")
+}
+
+model FriendBlock {
+  id            String   @id @default(uuid())
+  blockerId     String   @map("blocker_id")
+  blockedUserId String   @map("blocked_user_id")
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  blocker User @relation("Blocker", fields: [blockerId], references: [id], onDelete: Cascade)
+  blocked User @relation("Blocked", fields: [blockedUserId], references: [id], onDelete: Cascade)
+
+  @@unique([blockerId, blockedUserId])
+  @@map("friend_blocks")
+}
+
+// ─── Categories & Content ──────────────────────────────
+
+model Category {
+  id                   String  @id
+  slug                 String  @unique
+  name                 String
+  description          String
+  icon                 String
+  order                Int
+  isFree               Boolean @map("is_free")
+  isActive             Boolean @default(true) @map("is_active")
+  minimumContentTarget Int     @default(300) @map("minimum_content_target")
+  ageRating            String  @default("all") @map("age_rating")
+  supportedContentTypes String[] @map("supported_content_types")
+  createdAt            DateTime @default(now()) @map("created_at")
+  updatedAt            DateTime @updatedAt @map("updated_at")
+
+  contents GameContent[]
+  rooms    Room[]
+  games    Game[]
+
+  @@map("categories")
+}
+
+model GameContent {
+  id               String                  @id @default(uuid())
+  categoryId       String                  @map("category_id")
+  type             ContentType
+  difficulty       Int                     @default(1)
+  prompt           String
+  options          Json?
+  correctAnswer    String?                 @map("correct_answer")
+  premium          Boolean                 @default(false)
+  active           Boolean                 @default(true)
+  moderationStatus ContentModerationStatus @default(DRAFT) @map("moderation_status")
+  ageRating        String                  @default("all") @map("age_rating")
+  qualityScore     Int                     @default(85) @map("quality_score")
+  usageCount       Int                     @default(0) @map("usage_count")
+  reportCount      Int                     @default(0) @map("report_count")
+  aiGenerated      Boolean                 @default(false) @map("ai_generated")
+  contentVersion   String                  @default("2026.1") @map("content_version")
+  createdAt        DateTime                @default(now()) @map("created_at")
+  updatedAt        DateTime                @updatedAt @map("updated_at")
+
+  category     Category       @relation(fields: [categoryId], references: [id])
+  usageRecords ContentUsage[]
+  gameQuestions GameQuestion[]
+
+  @@index([categoryId])
+  @@index([difficulty])
+  @@index([premium])
+  @@index([moderationStatus])
+  @@index([active])
+  @@map("game_contents")
+}
+
+model ContentUsage {
+  id        String   @id @default(uuid())
+  userId    String   @map("user_id")
+  contentId String   @map("content_id")
+  gameId    String?  @map("game_id")
+  roomId    String?  @map("room_id")
+  usedAt    DateTime @default(now()) @map("used_at")
+
+  user    User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  content GameContent @relation(fields: [contentId], references: [id])
+
+  @@index([userId])
+  @@index([contentId])
+  @@index([usedAt])
+  @@map("content_usage")
+}
+
+model ContentBatch {
+  id             String   @id @default(uuid())
+  categoryId     String   @map("category_id")
+  requestedCount Int      @map("requested_count")
+  generatedCount Int      @default(0) @map("generated_count")
+  status         String   @default("pending")
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  @@map("content_batches")
+}
+
+model CustomCategory {
+  id        String   @id @default(uuid())
+  ownerId   String   @map("owner_id")
+  name      String
+  status    String   @default("DRAFT")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  owner    User                    @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  contents CustomCategoryContent[]
+
+  @@index([ownerId])
+  @@index([status])
+  @@map("custom_categories")
+}
+
+model CustomCategoryContent {
+  id               String @id @default(uuid())
+  customCategoryId String @map("custom_category_id")
+  prompt           String
+  type             ContentType @default(QUESTION)
+  createdAt        DateTime @default(now()) @map("created_at")
+
+  customCategory CustomCategory @relation(fields: [customCategoryId], references: [id], onDelete: Cascade)
+
+  @@map("custom_category_contents")
+}
+
+// ─── Quizzes ───────────────────────────────────────────
+
+model Quiz {
+  id          String         @id @default(uuid())
+  ownerId     String         @map("owner_id")
+  title       String
+  description String?
+  categoryId  String?        @map("category_id")
+  status      QuizStatus     @default(DRAFT)
+  visibility  QuizVisibility @default(PRIVATE)
+  shareCode   String?        @unique @map("share_code")
+  timeLimit   Int?           @map("time_limit")
+  createdAt   DateTime       @default(now()) @map("created_at")
+  updatedAt   DateTime       @updatedAt @map("updated_at")
+
+  owner     User           @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  questions QuizQuestion[]
+  results   QuizResult[]
+
+  @@index([ownerId])
+  @@index([createdAt])
+  @@index([status])
+  @@map("quizzes")
+}
+
+model QuizQuestion {
+  id            String @id @default(uuid())
+  quizId        String @map("quiz_id")
+  text          String
+  type          String @default("multiple_choice")
+  options       Json?
+  correctAnswer String? @map("correct_answer")
+  order         Int    @default(0)
+
+  quiz Quiz @relation(fields: [quizId], references: [id], onDelete: Cascade)
+
+  @@index([quizId])
+  @@map("quiz_questions")
+}
+
+model QuizResult {
+  id         String   @id @default(uuid())
+  quizId     String   @map("quiz_id")
+  solverId   String?  @map("solver_id")
+  solverName String   @map("solver_name")
+  score      Int      @default(0)
+  totalQuestions Int  @default(0) @map("total_questions")
+  answers    Json?
+  completedAt DateTime @default(now()) @map("completed_at")
+
+  quiz   Quiz  @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  solver User? @relation(fields: [solverId], references: [id], onDelete: SetNull)
+
+  @@index([quizId])
+  @@index([solverId])
+  @@map("quiz_results")
+}
+
+// ─── Rooms & Games ─────────────────────────────────────
+
+model Room {
+  id            String     @id @default(uuid())
+  code          String     @unique
+  hostUserId    String     @map("host_user_id")
+  status        RoomStatus @default(LOBBY)
+  isPremiumRoom Boolean    @default(false) @map("is_premium_room")
+  maxPlayers    Int        @default(8) @map("max_players")
+  categoryId    String?    @map("category_id")
+  expiresAt     DateTime   @map("expires_at")
+  createdAt     DateTime   @default(now()) @map("created_at")
+  updatedAt     DateTime   @updatedAt @map("updated_at")
+
+  host     User         @relation("RoomHost", fields: [hostUserId], references: [id])
+  category Category?    @relation(fields: [categoryId], references: [id])
+  players  RoomPlayer[]
+  games    Game[]
+
+  @@index([code])
+  @@index([status])
+  @@index([expiresAt])
+  @@map("rooms")
+}
+
+model RoomPlayer {
+  id           String   @id @default(uuid())
+  roomId       String   @map("room_id")
+  userId       String?  @map("user_id")
+  displayName  String   @map("display_name")
+  avatarEmoji  String?  @map("avatar_emoji")
+  isHost       Boolean  @default(false) @map("is_host")
+  isReady      Boolean  @default(false) @map("is_ready")
+  sessionToken String   @unique @map("session_token")
+  joinedAt     DateTime @default(now()) @map("joined_at")
+  leftAt       DateTime? @map("left_at")
+  kickedAt     DateTime? @map("kicked_at")
+
+  room Room  @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@unique([roomId, userId])
+  @@index([roomId])
+  @@index([userId])
+  @@map("room_players")
+}
+
+model Game {
+  id           String     @id @default(uuid())
+  roomId       String     @map("room_id")
+  categoryId   String     @map("category_id")
+  status       GameStatus @default(ACTIVE)
+  currentStage Int        @default(0) @map("current_stage")
+  totalStages  Int        @default(5) @map("total_stages")
+  startedAt    DateTime   @default(now()) @map("started_at")
+  completedAt  DateTime?  @map("completed_at")
+
+  room     Room          @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  category Category      @relation(fields: [categoryId], references: [id])
+  players  GamePlayer[]
+  rounds   GameRound[]
+  scores   GameScore[]
+
+  @@index([roomId])
+  @@index([status])
+  @@map("games")
+}
+
+model GamePlayer {
+  id       String @id @default(uuid())
+  gameId   String @map("game_id")
+  userId   String? @map("user_id")
+  playerId String @map("player_id")
+  displayName String @map("display_name")
+
+  game Game  @relation(fields: [gameId], references: [id], onDelete: Cascade)
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@unique([gameId, playerId])
+  @@map("game_players")
+}
+
+model GameRound {
+  id        String @id @default(uuid())
+  gameId    String @map("game_id")
+  roundNum  Int    @map("round_num")
+  stage     String @default("question")
+  startedAt DateTime @default(now()) @map("started_at")
+  endedAt   DateTime? @map("ended_at")
+
+  game      Game           @relation(fields: [gameId], references: [id], onDelete: Cascade)
+  questions GameQuestion[]
+  answers   GameAnswer[]
+  matches   Match[]
+
+  @@index([gameId])
+  @@map("game_rounds")
+}
+
+model GameQuestion {
+  id        String @id @default(uuid())
+  roundId   String @map("round_id")
+  contentId String @map("content_id")
+  order     Int    @default(0)
+
+  round   GameRound   @relation(fields: [roundId], references: [id], onDelete: Cascade)
+  content GameContent @relation(fields: [contentId], references: [id])
+
+  @@map("game_questions")
+}
+
+model GameAnswer {
+  id         String   @id @default(uuid())
+  roundId    String   @map("round_id")
+  playerId   String   @map("player_id")
+  answer     String?
+  isCorrect  Boolean? @map("is_correct")
+  score      Int      @default(0)
+  answeredAt DateTime @default(now()) @map("answered_at")
+  timedOut   Boolean  @default(false) @map("timed_out")
+
+  round GameRound @relation(fields: [roundId], references: [id], onDelete: Cascade)
+
+  @@unique([roundId, playerId])
+  @@map("game_answers")
+}
+
+model Match {
+  id        String @id @default(uuid())
+  roundId   String @map("round_id")
+  playerAId String @map("player_a_id")
+  playerBId String @map("player_b_id")
+
+  round GameRound @relation(fields: [roundId], references: [id], onDelete: Cascade)
+
+  @@map("matches")
+}
+
+model GameScore {
+  id       String @id @default(uuid())
+  gameId   String @map("game_id")
+  playerId String @map("player_id")
+  score    Int    @default(0)
+  rank     Int    @default(0)
+
+  game Game @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@unique([gameId, playerId])
+  @@map("game_scores")
+}
+
+// ─── Subscriptions & Payments ──────────────────────────
+
+model Subscription {
+  id        String             @id @default(uuid())
+  userId    String             @map("user_id")
+  productId String             @map("product_id")
+  status    SubscriptionStatus @default(PENDING)
+  provider  String
+  expiresAt DateTime           @map("expires_at")
+  createdAt DateTime           @default(now()) @map("created_at")
+  updatedAt DateTime           @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([status])
+  @@index([expiresAt])
+  @@map("subscriptions")
+}
+
+model Entitlement {
+  userId    String   @id @map("user_id")
+  status    String   @default("free")
+  source    String   @default("unknown")
+  expiresAt DateTime? @map("expires_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("entitlements")
+}
+
+model Purchase {
+  id            String        @id @default(uuid())
+  userId        String        @map("user_id")
+  productId     String        @map("product_id")
+  platform      String
+  transactionId String        @unique @map("transaction_id")
+  state         PurchaseState @default(PENDING)
+  createdAt     DateTime      @default(now()) @map("created_at")
+  updatedAt     DateTime      @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("purchases")
+}
+
+model PaymentEvent {
+  id          String             @id @default(uuid())
+  provider    String
+  eventId     String             @unique @map("event_id")
+  eventType   String             @map("event_type")
+  payloadHash String             @map("payload_hash")
+  status      PaymentEventStatus @default(RECEIVED)
+  receivedAt  DateTime           @default(now()) @map("received_at")
+  processedAt DateTime?          @map("processed_at")
+
+  @@index([provider])
+  @@map("payment_events")
+}
+
+// ─── Notifications ─────────────────────────────────────
+
+model Notification {
+  id        String           @id @default(uuid())
+  userId    String           @map("user_id")
+  type      NotificationType
+  title     String
+  body      String
+  data      Json?
+  readAt    DateTime?        @map("read_at")
+  createdAt DateTime         @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([readAt])
+  @@map("notifications")
+}
+
+model NotificationPreference {
+  userId        String  @id @map("user_id")
+  friendInvite  Boolean @default(true) @map("friend_invite")
+  quiz          Boolean @default(true)
+  room          Boolean @default(true)
+  game          Boolean @default(true)
+  marketing     Boolean @default(false)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("notification_preferences")
+}
+
+model PushToken {
+  id        String   @id @default(uuid())
+  userId    String   @map("user_id")
+  deviceId  String   @map("device_id")
+  platform  String
+  token     String
+  active    Boolean  @default(true)
+  lastSeen  DateTime @default(now()) @map("last_seen")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@unique([userId, deviceId])
+  @@index([token])
+  @@map("push_tokens")
+}
+
+// ─── Moderation & Support ──────────────────────────────
+
+model Report {
+  id          String         @id @default(uuid())
+  reporterId  String         @map("reporter_id")
+  targetType  String         @map("target_type")
+  targetId    String         @map("target_id")
+  reason      String
+  description String?
+  status      ReportStatus   @default(OPEN)
+  priority    ReportPriority @default(MEDIUM)
+  assignedTo  String?        @map("assigned_to")
+  resolvedAt  DateTime?      @map("resolved_at")
+  createdAt   DateTime       @default(now()) @map("created_at")
+
+  reporter User @relation("Reporter", fields: [reporterId], references: [id], onDelete: Cascade)
+
+  @@index([status])
+  @@index([priority])
+  @@map("reports")
+}
+
+model ModerationAction {
+  id         String   @id @default(uuid())
+  adminId    String?  @map("admin_id")
+  action     String
+  targetType String   @map("target_type")
+  targetId   String   @map("target_id")
+  reason     String?
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  @@map("moderation_actions")
+}
+
+model SupportTicket {
+  id        String        @id @default(uuid())
+  userId    String        @map("user_id")
+  category  String
+  message   String
+  status    SupportStatus @default(OPEN)
+  priority  ReportPriority @default(MEDIUM)
+  notes     Json          @default("[]")
+  createdAt DateTime      @default(now()) @map("created_at")
+  updatedAt DateTime      @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([status])
+  @@map("support_tickets")
+}
+
+// ─── Badges ────────────────────────────────────────────
+
+model Badge {
+  id          String @id
+  name        String
+  description String
+  icon        String
+  rarity      String @default("common")
+  condition   String
+
+  userBadges UserBadge[]
+
+  @@map("badges")
+}
+
+model UserBadge {
+  id         String   @id @default(uuid())
+  userId     String   @map("user_id")
+  badgeId    String   @map("badge_id")
+  progress   Int      @default(0)
+  unlockedAt DateTime? @map("unlocked_at")
+
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  badge Badge @relation(fields: [badgeId], references: [id])
+
+  @@unique([userId, badgeId])
+  @@map("user_badges")
+}
+
+// ─── Analytics ─────────────────────────────────────────
+
+model AnalyticsEvent {
+  id        String   @id @default(uuid())
+  userId    String?  @map("user_id")
+  eventName String   @map("event_name")
+  params    Json?
+  sessionId String?  @map("session_id")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([eventName])
+  @@index([createdAt])
+  @@map("analytics_events")
+}
+
+model AnalyticsDailyMetric {
+  id        String   @id @default(uuid())
+  date      DateTime @db.Date
+  metric    String
+  value     Float
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@unique([date, metric])
+  @@map("analytics_daily_metrics")
+}
+
+// ─── Admin ─────────────────────────────────────────────
+
+model AdminUser {
+  id           String    @id @default(uuid())
+  email        String    @unique
+  displayName  String    @map("display_name")
+  passwordHash String    @map("password_hash")
+  role         AdminRole @default(SUPPORT)
+  isActive     Boolean   @default(true) @map("is_active")
+  lastLoginAt  DateTime? @map("last_login_at")
+  createdAt    DateTime  @default(now()) @map("created_at")
+
+  sessions  AdminSession[]
+  auditLogs AuditLog[]
+
+  @@map("admin_users")
+}
+
+model AdminSession {
+  id           String   @id @default(uuid())
+  adminId      String   @map("admin_id")
+  token        String   @unique
+  expiresAt    DateTime @map("expires_at")
+  createdAt    DateTime @default(now()) @map("created_at")
+
+  admin AdminUser @relation(fields: [adminId], references: [id], onDelete: Cascade)
+
+  @@map("admin_sessions")
+}
+
+model AuditLog {
+  id         String   @id @default(uuid())
+  adminId    String   @map("admin_id")
+  action     String
+  targetType String   @map("target_type")
+  targetId   String   @map("target_id")
+  before     Json?
+  after      Json?
+  reason     String?
+  requestId  String   @map("request_id")
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  admin AdminUser @relation(fields: [adminId], references: [id])
+
+  @@index([adminId])
+  @@index([createdAt])
+  @@index([action])
+  @@map("audit_logs")
+}
+
+// ─── Feature Flags & Config ────────────────────────────
+
+model FeatureFlag {
+  key       String   @id
+  label     String
+  enabled   Boolean  @default(true)
+  environment String @default("all")
+  updatedAt DateTime @updatedAt @map("updated_at")
+  updatedBy String?  @map("updated_by")
+
+  @@map("feature_flags")
+}
+
+model AppConfig {
+  key       String   @id
+  value     Json
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("app_config")
+}

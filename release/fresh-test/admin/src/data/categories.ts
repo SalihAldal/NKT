@@ -1,0 +1,46 @@
+import type { AdminCategoryDto } from '../contracts/admin-api';
+
+const row = (
+  id: string,
+  slug: string,
+  name: string,
+  order: number,
+  isFree: boolean,
+  ageRating: string,
+): AdminCategoryDto => ({
+  id,
+  slug,
+  name,
+  order,
+  isFree,
+  isActive: true,
+  contentCount: 300,
+  minimumContentTarget: 300,
+  ageRating,
+  warning: false,
+  progress: 100,
+  incomplete: false,
+});
+
+export const ADMIN_CATEGORIES: AdminCategoryDto[] = [
+  row('cat-korku', 'korku', 'Korku', 1, true, 'all'),
+  row('cat-cesaret', 'cesaret', 'Cesaret', 2, true, 'all'),
+  row('cat-taniyorsun', 'ne-kadar-taniyorsun', 'Ne Kadar Tanıyorsun?', 3, true, 'all'),
+  row('cat-utandiran', 'utandiran-sorular', 'Utandıran Sorular', 4, true, 'all'),
+  row('cat-gece', 'gece-muhabbeti', 'Gece Muhabbeti', 5, true, 'all'),
+  row('cat-ask-iliski', 'ask-iliski', 'Aşk & İlişkiler', 6, false, 'all'),
+  row('cat-itiraf', 'itiraf', 'İtiraflar', 7, false, 'all'),
+  row('cat-parti', 'parti', 'Parti', 8, false, 'all'),
+  row('cat-eglence', 'eglence', 'Eğlence', 9, false, 'all'),
+  row('cat-black-humor', 'black-humor', 'Black Humor', 10, false, '16+'),
+  row('cat-tuhaf-absurt', 'tuhaf-absurt', 'Tuhaf & Absürt', 11, false, 'all'),
+  row('cat-zor-sorular', 'zor-sorular', 'Zor Sorular', 12, false, 'all'),
+  row('cat-film', 'film-dizi', 'Film & Dizi', 13, false, 'all'),
+  row('cat-muzik', 'muzik', 'Müzik', 14, false, 'all'),
+  row('cat-spor', 'spor', 'Spor', 15, false, 'all'),
+  row('cat-oyun', 'oyun', 'Oyun', 16, false, 'all'),
+  row('cat-cocukluk', 'cocukluk-anilari', 'Çocukluk Anıları', 17, false, 'all'),
+  row('cat-18', '18-plus', '+18', 18, false, '18+'),
+  row('cat-kim-daha', 'kim-daha', 'Kim Daha...?', 19, false, 'all'),
+  row('cat-arkadaslik-krizi', 'arkadaslik-krizi', 'Arkadaşlık Krizi', 20, false, 'all'),
+];

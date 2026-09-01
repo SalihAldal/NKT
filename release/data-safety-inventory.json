@@ -1,0 +1,18 @@
+{
+  "dataCollected": [
+    { "type": "Account identifiers", "purpose": "Authentication", "shared": false, "required": true },
+    { "type": "Profile information", "purpose": "User profile display", "shared": false, "required": false },
+    { "type": "User-generated content", "purpose": "Quiz, custom categories, rooms", "shared": false, "required": false },
+    { "type": "Device push token", "purpose": "Push notifications", "shared": true, "provider": "Expo Push" },
+    { "type": "Analytics events", "purpose": "Product analytics", "shared": true, "provider": "Backend" },
+    { "type": "Purchase metadata", "purpose": "Subscription verification", "shared": true, "provider": "Apple/Google" },
+    { "type": "Game/quiz history", "purpose": "User experience", "shared": false, "required": false }
+  ],
+  "dataNotCollected": [
+    "Precise location",
+    "Contacts",
+    "Photos (unless user uploads avatar)",
+    "Microphone",
+    "Cross-app tracking (default)"
+  ]
+}

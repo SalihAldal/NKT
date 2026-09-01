@@ -1,0 +1,25 @@
+{
+  "_comment": "Configure all URLs before store submission. Do not use fake contact info.",
+  "appStore": {
+    "appName": "NKT",
+    "subtitle": "Ne Kadar Tanıyorsun?",
+    "description": "CONFIGURE_BEFORE_SUBMISSION",
+    "keywords": ["quiz", "friends", "party", "game", "trivia"],
+    "supportUrl": "CONFIGURE_BEFORE_SUBMISSION",
+    "privacyUrl": "CONFIGURE_BEFORE_SUBMISSION",
+    "marketingUrl": "CONFIGURE_BEFORE_SUBMISSION",
+    "category": "Games",
+    "ageRating": "17+",
+    "copyright": "CONFIGURE_BEFORE_SUBMISSION"
+  },
+  "googlePlay": {
+    "title": "NKT — Ne Kadar Tanıyorsun?",
+    "shortDescription": "CONFIGURE_BEFORE_SUBMISSION",
+    "fullDescription": "CONFIGURE_BEFORE_SUBMISSION",
+    "category": "GAME_TRIVIA",
+    "contentRating": "Mature 17+",
+    "privacyUrl": "CONFIGURE_BEFORE_SUBMISSION",
+    "containsAds": true,
+    "targetAudience": "18+"
+  }
+}

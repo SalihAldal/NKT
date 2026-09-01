@@ -1,0 +1,8 @@
+PHASE 25 BUILD REPORT
+ZIP: C:\Users\salih\Desktop\NKT\release\nkt-vps-deploy.zip
+SIZE: 632761
+FILES: 150
+GIT_SHA: d8727bf
+COMPOSE: PASS
+SCAN: PASS
+VPS: NOT DEPLOYED

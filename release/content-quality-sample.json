@@ -1,0 +1,4851 @@
+{
+  "generatedAt": "2026-08-27T23:40:11.431Z",
+  "samplesPerCategory": 5,
+  "sample": {
+    "cat-korku": [
+      {
+        "categoryId": "cat-korku",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Fırtınalı bir gecede tavan arasında kapı kendi kendine açılsa kime mesaj atardın? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "frtnal bir gecede tavan arasnda kap kendi kendine aclsa kime mesaj atardn dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.283Z",
+        "updatedAt": "2026-08-27T22:06:00.283Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-korku-0000"
+      },
+      {
+        "categoryId": "cat-korku",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Karanlıkta balkonda kapı kendi kendine açılsa hangi odaya bakardın? Detaylı cevapla.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "karanlkta balkonda kap kendi kendine aclsa hangi odaya bakardn detayl cevapla",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.286Z",
+        "updatedAt": "2026-08-27T22:06:00.286Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-korku-0060"
+      },
+      {
+        "categoryId": "cat-korku",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Karanlıkta tavan arasında telefon çalsa kime mesaj atardın? Sen ne yapardın?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "karanlkta tavan arasnda telefon calsa kime mesaj atardn sen ne yapardn",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.288Z",
+        "updatedAt": "2026-08-27T22:06:00.288Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-korku-0120"
+      },
+      {
+        "categoryId": "cat-korku",
+        "type": "challenge",
+        "difficulty": 2,
+        "prompt": "Işıkları kapat ve 8 saniye boyunca sessiz kal. Farklı cevaplar çıkar mı?",
+        "answerType": "action",
+        "tags": [
+          "tercih",
+          "challenge",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "isklar kapat ve 8 saniye boyunca sessiz kal farkl cevaplar ckar m",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.289Z",
+        "updatedAt": "2026-08-27T22:06:00.289Z",
+        "qualityScore": 95,
+        "id": "content-cat-korku-0180"
+      },
+      {
+        "categoryId": "cat-korku",
+        "type": "performance",
+        "difficulty": 1,
+        "prompt": "Klasik bir korku sahnesindeki karanlıkta yürüme sahnesini oyna. Kısa tut.",
+        "answerType": "action",
+        "tags": [
+          "tercih",
+          "performance",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "klasik bir korku sahnesindeki karanlkta yurume sahnesini oyna ksa tut",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.290Z",
+        "updatedAt": "2026-08-27T22:06:00.290Z",
+        "qualityScore": 95,
+        "id": "content-cat-korku-0240"
+      }
+    ],
+    "cat-cesaret": [
+      {
+        "categoryId": "cat-cesaret",
+        "type": "challenge",
+        "difficulty": 1,
+        "prompt": "Odaya 30 saniye boyunca şaka yap. Düşün ve söyle.",
+        "answerType": "action",
+        "tags": [
+          "tercih",
+          "challenge",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "odaya 30 saniye boyunca saka yap dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.292Z",
+        "updatedAt": "2026-08-27T22:06:00.292Z",
+        "qualityScore": 95,
+        "id": "content-cat-cesaret-0000"
+      },
+      {
+        "categoryId": "cat-cesaret",
+        "type": "challenge",
+        "difficulty": 1,
+        "prompt": "Odaya 30 saniye boyunca şaka yap. İlk buluşmada sorulur mu?",
+        "answerType": "action",
+        "tags": [
+          "tercih",
+          "challenge",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "odaya 30 saniye boyunca saka yap ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.293Z",
+        "updatedAt": "2026-08-27T22:06:00.293Z",
+        "qualityScore": 95,
+        "id": "content-cat-cesaret-0060"
+      },
+      {
+        "categoryId": "cat-cesaret",
+        "type": "challenge",
+        "difficulty": 2,
+        "prompt": "Gruba 15 saniye boyunca sevdiğin şarkıdan bir kıta söyle. Gece muhabbeti için mi?",
+        "answerType": "action",
+        "tags": [
+          "tercih",
+          "challenge",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "gruba 15 saniye boyunca sevdigin sarkdan bir kta soyle gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.295Z",
+        "updatedAt": "2026-08-27T22:06:00.295Z",
+        "qualityScore": 95,
+        "id": "content-cat-cesaret-0120"
+      },
+      {
+        "categoryId": "cat-cesaret",
+        "type": "challenge",
+        "difficulty": 3,
+        "prompt": "Herkesin önünde 20 saniye boyunca komik bir dans yap. Yüzeysel mi?",
+        "answerType": "action",
+        "tags": [
+          "tercih",
+          "challenge",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "herkesin onunde 20 saniye boyunca komik bir dans yap yuzeysel mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.296Z",
+        "updatedAt": "2026-08-27T22:06:00.296Z",
+        "qualityScore": 95,
+        "id": "content-cat-cesaret-0180"
+      },
+      {
+        "categoryId": "cat-cesaret",
+        "type": "performance",
+        "difficulty": 2,
+        "prompt": "Sevdiğin bir dizi karakterinin mimiklerini canlandır. Mimikle cevapla.",
+        "answerType": "action",
+        "tags": [
+          "tercih",
+          "performance",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "sevdigin bir dizi karakterinin mimiklerini canlandr mimikle cevapla",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.297Z",
+        "updatedAt": "2026-08-27T22:06:00.297Z",
+        "qualityScore": 95,
+        "id": "content-cat-cesaret-0240"
+      }
+    ],
+    "cat-taniyorsun": [
+      {
+        "categoryId": "cat-taniyorsun",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "En ciddi arkadaşının en sevdiği yemek tahmin et. Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "en ciddi arkadasnn en sevdigi yemek tahmin et dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.297Z",
+        "updatedAt": "2026-08-27T22:06:00.297Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-taniyorsun-0000"
+      },
+      {
+        "categoryId": "cat-taniyorsun",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "En ciddi arkadaşının en sevdiği yemek tahmin et. İlk buluşmada sorulur mu?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "en ciddi arkadasnn en sevdigi yemek tahmin et ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.298Z",
+        "updatedAt": "2026-08-27T22:06:00.298Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-taniyorsun-0060"
+      },
+      {
+        "categoryId": "cat-taniyorsun",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "En ciddi arkadaşının en nefret ettiği müzik türü bilir misin? Gece muhabbeti için mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "en ciddi arkadasnn en nefret ettigi muzik turu bilir misin gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.299Z",
+        "updatedAt": "2026-08-27T22:06:00.299Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-taniyorsun-0120"
+      },
+      {
+        "categoryId": "cat-taniyorsun",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "En ciddi arkadaşının en nefret ettiği müzik türü bilir misin? Farklı cevaplar çıkar mı?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "en ciddi arkadasnn en nefret ettigi muzik turu bilir misin farkl cevaplar ckar m",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.300Z",
+        "updatedAt": "2026-08-27T22:06:00.300Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-taniyorsun-0180"
+      },
+      {
+        "categoryId": "cat-taniyorsun",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Arkadaşının en çok kullandığı müzik türü tahmin et. Beklentiyi kır.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "arkadasnn en cok kullandg muzik turu tahmin et beklentiyi kr",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.302Z",
+        "updatedAt": "2026-08-27T22:06:00.302Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-taniyorsun-0240"
+      }
+    ],
+    "cat-utandiran": [
+      {
+        "categoryId": "cat-utandiran",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Gizli tuttuğun arama paylaşır mısın? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "gizli tuttugun arama paylasr msn dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.303Z",
+        "updatedAt": "2026-08-27T22:06:00.303Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-utandiran-0000"
+      },
+      {
+        "categoryId": "cat-utandiran",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Gizli tuttuğun arama paylaşır mısın? İlk buluşmada sorulur mu?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "gizli tuttugun arama paylasr msn ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.304Z",
+        "updatedAt": "2026-08-27T22:06:00.304Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-utandiran-0060"
+      },
+      {
+        "categoryId": "cat-utandiran",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "En utandığın arama ne olabilir? Gece muhabbeti için mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "en utandgn arama ne olabilir gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.304Z",
+        "updatedAt": "2026-08-27T22:06:00.304Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-utandiran-0120"
+      },
+      {
+        "categoryId": "cat-utandiran",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Derinlemesine düşün: Kimseye söylemediğin arama paylaşır mısın? Sadece grup bilsin.",
+        "answerType": "text",
+        "tags": [
+          "tahmin",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "derinlemesine dusun kimseye soylemedigin arama paylasr msn sadece grup bilsin",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tahmin",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.305Z",
+        "updatedAt": "2026-08-27T22:06:00.305Z",
+        "correctAnswer": "cevap",
+        "qualityScore": 95,
+        "id": "content-cat-utandiran-0180"
+      },
+      {
+        "categoryId": "cat-utandiran",
+        "type": "challenge",
+        "difficulty": 1,
+        "prompt": "Hızlı cevap: En garip hikâyeni canlandır. Yıllar sonra sorulur mu?",
+        "answerType": "action",
+        "tags": [
+          "tahmin",
+          "challenge",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hzl cevap en garip hikayeni canlandr yllar sonra sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tahmin",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.306Z",
+        "updatedAt": "2026-08-27T22:06:00.306Z",
+        "qualityScore": 95,
+        "id": "content-cat-utandiran-0240"
+      }
+    ],
+    "cat-gece": [
+      {
+        "categoryId": "cat-gece",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Uykusuz bir gecede hangi anıyı duymak isterdin? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "uykusuz bir gecede hangi any duymak isterdin dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.306Z",
+        "updatedAt": "2026-08-27T22:06:00.306Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-gece-0000"
+      },
+      {
+        "categoryId": "cat-gece",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Uykusuz bir gecede hangi anıyı açmak isterdin? İlk buluşmada sorulur mu?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "uykusuz bir gecede hangi any acmak isterdin ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.308Z",
+        "updatedAt": "2026-08-27T22:06:00.308Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-gece-0060"
+      },
+      {
+        "categoryId": "cat-gece",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Uykusuz bir gecede hangi soruyu açmak isterdin? Gece muhabbeti için mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "uykusuz bir gecede hangi soruyu acmak isterdin gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.308Z",
+        "updatedAt": "2026-08-27T22:06:00.308Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-gece-0120"
+      },
+      {
+        "categoryId": "cat-gece",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Uykusuz bir gecede hangi soruyu duymak isterdin? Farklı cevaplar çıkar mı?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "uykusuz bir gecede hangi soruyu duymak isterdin farkl cevaplar ckar m",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.309Z",
+        "updatedAt": "2026-08-27T22:06:00.309Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-gece-0180"
+      },
+      {
+        "categoryId": "cat-gece",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Gece sohbetinde hangi itirafı açmak isterdin? Beklentiyi kır.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": false,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "gece sohbetinde hangi itiraf acmak isterdin beklentiyi kr",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.309Z",
+        "updatedAt": "2026-08-27T22:06:00.309Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-gece-0240"
+      }
+    ],
+    "cat-ask-iliski": [
+      {
+        "categoryId": "cat-ask-iliski",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Aşkta en önemli özellik ne olurdu? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "askta en onemli ozellik ne olurdu dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.310Z",
+        "updatedAt": "2026-08-27T22:06:00.310Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-ask-iliski-0000"
+      },
+      {
+        "categoryId": "cat-ask-iliski",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Aşkta en önemli özellik ne olurdu? İlk buluşmada sorulur mu?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "askta en onemli ozellik ne olurdu ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.311Z",
+        "updatedAt": "2026-08-27T22:06:00.311Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-ask-iliski-0060"
+      },
+      {
+        "categoryId": "cat-ask-iliski",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "İlişkilerde en zor jest ne olurdu? Gece muhabbeti için mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "iliskilerde en zor jest ne olurdu gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.312Z",
+        "updatedAt": "2026-08-27T22:06:00.312Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-ask-iliski-0120"
+      },
+      {
+        "categoryId": "cat-ask-iliski",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "İlişkilerde en zor jest ne olurdu? Farklı cevaplar çıkar mı?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "iliskilerde en zor jest ne olurdu farkl cevaplar ckar m",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.313Z",
+        "updatedAt": "2026-08-27T22:06:00.313Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-ask-iliski-0180"
+      },
+      {
+        "categoryId": "cat-ask-iliski",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Derinlemesine düşün: Flörtte en komik özellik ne olurdu? Gruptan birini seç.",
+        "answerType": "text",
+        "tags": [
+          "tahmin",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "derinlemesine dusun flortte en komik ozellik ne olurdu gruptan birini sec",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tahmin",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.314Z",
+        "updatedAt": "2026-08-27T22:06:00.314Z",
+        "correctAnswer": "cevap",
+        "qualityScore": 95,
+        "id": "content-cat-ask-iliski-0240"
+      }
+    ],
+    "cat-itiraf": [
+      {
+        "categoryId": "cat-itiraf",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "İçinden geçirip söylemediğin cesur bir itirafın paylaşır mısın? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "icinden gecirip soylemedigin cesur bir itirafn paylasr msn dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.314Z",
+        "updatedAt": "2026-08-27T22:06:00.314Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-itiraf-0000"
+      },
+      {
+        "categoryId": "cat-itiraf",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "İçinden geçirip söylemediğin cesur bir itirafın paylaşır mısın? İlk buluşmada sorulur mu?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "icinden gecirip soylemedigin cesur bir itirafn paylasr msn ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.315Z",
+        "updatedAt": "2026-08-27T22:06:00.315Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-itiraf-0060"
+      },
+      {
+        "categoryId": "cat-itiraf",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "İçinden geçirip söylemediğin küçük bir hayalin paylaşır mısın? Gece muhabbeti için mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "icinden gecirip soylemedigin kucuk bir hayalin paylasr msn gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.316Z",
+        "updatedAt": "2026-08-27T22:06:00.316Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-itiraf-0120"
+      },
+      {
+        "categoryId": "cat-itiraf",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Hiç kimseye söylemediğin cesur bir hayalin ne olurdu? Yüzeysel mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hic kimseye soylemedigin cesur bir hayalin ne olurdu yuzeysel mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.317Z",
+        "updatedAt": "2026-08-27T22:06:00.317Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-itiraf-0180"
+      },
+      {
+        "categoryId": "cat-itiraf",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Hiç kimseye söylemediğin cesur bir hayalin ne olurdu? Beklentiyi kır.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hic kimseye soylemedigin cesur bir hayalin ne olurdu beklentiyi kr",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.318Z",
+        "updatedAt": "2026-08-27T22:06:00.318Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-itiraf-0240"
+      }
+    ],
+    "cat-parti": [
+      {
+        "categoryId": "cat-parti",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Doğum gününde hangi müziği dinlersin? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "dogum gununde hangi muzigi dinlersin dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.319Z",
+        "updatedAt": "2026-08-27T22:06:00.319Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-parti-0000"
+      },
+      {
+        "categoryId": "cat-parti",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Partide hangi oyunu tercih ederdin? Ciddi cevapla.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "partide hangi oyunu tercih ederdin ciddi cevapla",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.319Z",
+        "updatedAt": "2026-08-27T22:06:00.319Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-parti-0060"
+      },
+      {
+        "categoryId": "cat-parti",
+        "type": "challenge",
+        "difficulty": 1,
+        "prompt": "Odaya 20 saniye boyunca şarkı söyle. Grupta tartışma çıkar mı?",
+        "answerType": "action",
+        "tags": [
+          "tercih",
+          "challenge",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "odaya 20 saniye boyunca sark soyle grupta tartsma ckar m",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.320Z",
+        "updatedAt": "2026-08-27T22:06:00.320Z",
+        "qualityScore": 95,
+        "id": "content-cat-parti-0120"
+      },
+      {
+        "categoryId": "cat-parti",
+        "type": "challenge",
+        "difficulty": 3,
+        "prompt": "Herkesin önünde 15 saniye boyunca şarkı söyle. Yüzeysel mi?",
+        "answerType": "action",
+        "tags": [
+          "tercih",
+          "challenge",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "herkesin onunde 15 saniye boyunca sark soyle yuzeysel mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.321Z",
+        "updatedAt": "2026-08-27T22:06:00.321Z",
+        "qualityScore": 95,
+        "id": "content-cat-parti-0180"
+      },
+      {
+        "categoryId": "cat-parti",
+        "type": "performance",
+        "difficulty": 2,
+        "prompt": "Eğlencedeki komik halini göster. Mimikle cevapla.",
+        "answerType": "action",
+        "tags": [
+          "tercih",
+          "performance",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "eglencedeki komik halini goster mimikle cevapla",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.321Z",
+        "updatedAt": "2026-08-27T22:06:00.321Z",
+        "qualityScore": 95,
+        "id": "content-cat-parti-0240"
+      }
+    ],
+    "cat-eglence": [
+      {
+        "categoryId": "cat-eglence",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "En absürt anın nedir? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "en absurt ann nedir dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.322Z",
+        "updatedAt": "2026-08-27T22:06:00.322Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-eglence-0000"
+      },
+      {
+        "categoryId": "cat-eglence",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "En komik hikâyen ne olurdu? Detaylı cevapla.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "en komik hikayen ne olurdu detayl cevapla",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.324Z",
+        "updatedAt": "2026-08-27T22:06:00.324Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-eglence-0060"
+      },
+      {
+        "categoryId": "cat-eglence",
+        "type": "challenge",
+        "difficulty": 1,
+        "prompt": "Hızlı cevap: Komik bir ses göster. Hatırlıyor musun?",
+        "answerType": "action",
+        "tags": [
+          "tahmin",
+          "challenge",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hzl cevap komik bir ses goster hatrlyor musun",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tahmin",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.324Z",
+        "updatedAt": "2026-08-27T22:06:00.324Z",
+        "qualityScore": 95,
+        "id": "content-cat-eglence-0120"
+      },
+      {
+        "categoryId": "cat-eglence",
+        "type": "challenge",
+        "difficulty": 3,
+        "prompt": "Derinlemesine düşün: Absürt bir ses sergile. Sadece grup bilsin.",
+        "answerType": "action",
+        "tags": [
+          "tahmin",
+          "challenge",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "derinlemesine dusun absurt bir ses sergile sadece grup bilsin",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tahmin",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.325Z",
+        "updatedAt": "2026-08-27T22:06:00.325Z",
+        "qualityScore": 95,
+        "id": "content-cat-eglence-0180"
+      },
+      {
+        "categoryId": "cat-eglence",
+        "type": "performance",
+        "difficulty": 2,
+        "prompt": "Biraz düşün: En güldüğün taklit hareketle canlandır. İlk tepkin ne olur?",
+        "answerType": "action",
+        "tags": [
+          "tahmin",
+          "performance",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "biraz dusun en guldugun taklit hareketle canlandr ilk tepkin ne olur",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tahmin",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.326Z",
+        "updatedAt": "2026-08-27T22:06:00.326Z",
+        "qualityScore": 95,
+        "id": "content-cat-eglence-0240"
+      }
+    ],
+    "cat-black-humor": [
+      {
+        "categoryId": "cat-black-humor",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "İroniyle hangi şakayı paylaşırsın? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "16+",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "ironiyle hangi sakay paylasrsn dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.326Z",
+        "updatedAt": "2026-08-27T22:06:00.326Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-black-humor-0000"
+      },
+      {
+        "categoryId": "cat-black-humor",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "İroniyle hangi şakayı paylaşırsın? İlk buluşmada sorulur mu?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "16+",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "ironiyle hangi sakay paylasrsn ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.327Z",
+        "updatedAt": "2026-08-27T22:06:00.327Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-black-humor-0060"
+      },
+      {
+        "categoryId": "cat-black-humor",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Kara mizah seven biri olarak hangi konuyu komik bulursun? Gece muhabbeti için mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "16+",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "kara mizah seven biri olarak hangi konuyu komik bulursun gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.328Z",
+        "updatedAt": "2026-08-27T22:06:00.328Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-black-humor-0120"
+      },
+      {
+        "categoryId": "cat-black-humor",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Derinlemesine düşün: Gülerek hangi konuyu paylaşırsın? Sadece grup bilsin.",
+        "answerType": "text",
+        "tags": [
+          "tahmin",
+          "question",
+          "d3"
+        ],
+        "ageRating": "16+",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "derinlemesine dusun gulerek hangi konuyu paylasrsn sadece grup bilsin",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tahmin",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.329Z",
+        "updatedAt": "2026-08-27T22:06:00.329Z",
+        "correctAnswer": "cevap",
+        "qualityScore": 95,
+        "id": "content-cat-black-humor-0180"
+      },
+      {
+        "categoryId": "cat-black-humor",
+        "type": "challenge",
+        "difficulty": 1,
+        "prompt": "Hızlı cevap: Komik ama karanlık yorum söyle. Yıllar sonra sorulur mu?",
+        "answerType": "action",
+        "tags": [
+          "tahmin",
+          "challenge",
+          "d1"
+        ],
+        "ageRating": "16+",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hzl cevap komik ama karanlk yorum soyle yllar sonra sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tahmin",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.331Z",
+        "updatedAt": "2026-08-27T22:06:00.331Z",
+        "qualityScore": 95,
+        "id": "content-cat-black-humor-0240"
+      }
+    ],
+    "cat-tuhaf-absurt": [
+      {
+        "categoryId": "cat-tuhaf-absurt",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Diyelim ki tavuklar konuşsa nasıl olurdu? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "diyelim ki tavuklar konussa nasl olurdu dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.332Z",
+        "updatedAt": "2026-08-27T22:06:00.332Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-tuhaf-absurt-0000"
+      },
+      {
+        "categoryId": "cat-tuhaf-absurt",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Eğer zaman ters aksa ne olurdu? Detaylı cevapla.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "eger zaman ters aksa ne olurdu detayl cevapla",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.332Z",
+        "updatedAt": "2026-08-27T22:06:00.332Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-tuhaf-absurt-0060"
+      },
+      {
+        "categoryId": "cat-tuhaf-absurt",
+        "type": "challenge",
+        "difficulty": 1,
+        "prompt": "Hızlı cevap: Tuhaf bir nesne taklidi yap. Hatırlıyor musun?",
+        "answerType": "action",
+        "tags": [
+          "tahmin",
+          "challenge",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hzl cevap tuhaf bir nesne taklidi yap hatrlyor musun",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tahmin",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.333Z",
+        "updatedAt": "2026-08-27T22:06:00.333Z",
+        "qualityScore": 95,
+        "id": "content-cat-tuhaf-absurt-0120"
+      },
+      {
+        "categoryId": "cat-tuhaf-absurt",
+        "type": "challenge",
+        "difficulty": 3,
+        "prompt": "Derinlemesine düşün: Absürt bir nesne hareketini yap. Sadece grup bilsin.",
+        "answerType": "action",
+        "tags": [
+          "tahmin",
+          "challenge",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "derinlemesine dusun absurt bir nesne hareketini yap sadece grup bilsin",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tahmin",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.334Z",
+        "updatedAt": "2026-08-27T22:06:00.334Z",
+        "qualityScore": 95,
+        "id": "content-cat-tuhaf-absurt-0180"
+      },
+      {
+        "categoryId": "cat-tuhaf-absurt",
+        "type": "performance",
+        "difficulty": 2,
+        "prompt": "Biraz düşün: En absürt davranışını 3 saniyede canlandır. İlk tepkin ne olur?",
+        "answerType": "action",
+        "tags": [
+          "tahmin",
+          "performance",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "biraz dusun en absurt davransn 3 saniyede canlandr ilk tepkin ne olur",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tahmin",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.335Z",
+        "updatedAt": "2026-08-27T22:06:00.335Z",
+        "qualityScore": 95,
+        "id": "content-cat-tuhaf-absurt-0240"
+      }
+    ],
+    "cat-zor-sorular": [
+      {
+        "categoryId": "cat-zor-sorular",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Dünyada en derin karar nasıl karar verirsin? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "dunyada en derin karar nasl karar verirsin dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.336Z",
+        "updatedAt": "2026-08-27T22:06:00.336Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-zor-sorular-0000"
+      },
+      {
+        "categoryId": "cat-zor-sorular",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Dünyada en derin karar nasıl karar verirsin? İlk buluşmada sorulur mu?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "dunyada en derin karar nasl karar verirsin ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.337Z",
+        "updatedAt": "2026-08-27T22:06:00.337Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-zor-sorular-0060"
+      },
+      {
+        "categoryId": "cat-zor-sorular",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Hayatında en önemli dilemma ne yapardın? Gece muhabbeti için mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hayatnda en onemli dilemma ne yapardn gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.338Z",
+        "updatedAt": "2026-08-27T22:06:00.338Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-zor-sorular-0120"
+      },
+      {
+        "categoryId": "cat-zor-sorular",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Hayatında en önemli dilemma ne yapardın? Farklı cevaplar çıkar mı?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hayatnda en onemli dilemma ne yapardn farkl cevaplar ckar m",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.339Z",
+        "updatedAt": "2026-08-27T22:06:00.339Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-zor-sorular-0180"
+      },
+      {
+        "categoryId": "cat-zor-sorular",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "İnsanlık için en tartışmalı dilemma nasıl karar verirsin? Beklentiyi kır.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "insanlk icin en tartsmal dilemma nasl karar verirsin beklentiyi kr",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.339Z",
+        "updatedAt": "2026-08-27T22:06:00.339Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-zor-sorular-0240"
+      }
+    ],
+    "cat-film": [
+      {
+        "categoryId": "cat-film",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Hangi sahne ailemi en çok etkiler? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hangi sahne ailemi en cok etkiler dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.340Z",
+        "updatedAt": "2026-08-27T22:06:00.340Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-film-0000"
+      },
+      {
+        "categoryId": "cat-film",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Hangi sahne ailemi en çok etkiler? İlk buluşmada sorulur mu?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hangi sahne ailemi en cok etkiler ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.341Z",
+        "updatedAt": "2026-08-27T22:06:00.341Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-film-0060"
+      },
+      {
+        "categoryId": "cat-film",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Hangi sahne arkadaşını ağlatır? Gece muhabbeti için mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hangi sahne arkadasn aglatr gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.342Z",
+        "updatedAt": "2026-08-27T22:06:00.342Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-film-0120"
+      },
+      {
+        "categoryId": "cat-film",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Hangi sahne arkadaşını ağlatır? Farklı cevaplar çıkar mı?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hangi sahne arkadasn aglatr farkl cevaplar ckar m",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.343Z",
+        "updatedAt": "2026-08-27T22:06:00.343Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-film-0180"
+      },
+      {
+        "categoryId": "cat-film",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Hangi film herkesi ağlatır? Beklentiyi kır.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hangi film herkesi aglatr beklentiyi kr",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.344Z",
+        "updatedAt": "2026-08-27T22:06:00.344Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-film-0240"
+      }
+    ],
+    "cat-muzik": [
+      {
+        "categoryId": "cat-muzik",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Gizlice dinlediğin şarkı kim? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "gizlice dinledigin sark kim dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.345Z",
+        "updatedAt": "2026-08-27T22:06:00.345Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-muzik-0000"
+      },
+      {
+        "categoryId": "cat-muzik",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Gizlice dinlediğin şarkı kim? İlk buluşmada sorulur mu?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "gizlice dinledigin sark kim ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.346Z",
+        "updatedAt": "2026-08-27T22:06:00.346Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-muzik-0060"
+      },
+      {
+        "categoryId": "cat-muzik",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "En sevdiğin sanatçı hangisi? Gece muhabbeti için mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "en sevdigin sanatc hangisi gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.347Z",
+        "updatedAt": "2026-08-27T22:06:00.347Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-muzik-0120"
+      },
+      {
+        "categoryId": "cat-muzik",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "En sevdiğin sanatçı hangisi? Farklı cevaplar çıkar mı?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "en sevdigin sanatc hangisi farkl cevaplar ckar m",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.347Z",
+        "updatedAt": "2026-08-27T22:06:00.347Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-muzik-0180"
+      },
+      {
+        "categoryId": "cat-muzik",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Herkesin bilmediği konser hangisi? Beklentiyi kır.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "herkesin bilmedigi konser hangisi beklentiyi kr",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.348Z",
+        "updatedAt": "2026-08-27T22:06:00.348Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-muzik-0240"
+      }
+    ],
+    "cat-spor": [
+      {
+        "categoryId": "cat-spor",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Hangi lig takip ettiğin? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hangi lig takip ettigin dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.349Z",
+        "updatedAt": "2026-08-27T22:06:00.349Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-spor-0000"
+      },
+      {
+        "categoryId": "cat-spor",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Hangi lig takip ettiğin? İlk buluşmada sorulur mu?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hangi lig takip ettigin ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.351Z",
+        "updatedAt": "2026-08-27T22:06:00.351Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-spor-0060"
+      },
+      {
+        "categoryId": "cat-spor",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Hangi lig en çok izlediğin? Gece muhabbeti için mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hangi lig en cok izledigin gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.351Z",
+        "updatedAt": "2026-08-27T22:06:00.351Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-spor-0120"
+      },
+      {
+        "categoryId": "cat-spor",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Hangi lig en çok izlediğin? Farklı cevaplar çıkar mı?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hangi lig en cok izledigin farkl cevaplar ckar m",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.352Z",
+        "updatedAt": "2026-08-27T22:06:00.352Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-spor-0180"
+      },
+      {
+        "categoryId": "cat-spor",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Derinlemesine düşün: Hangi lig en çok izlediğin? Gruptan birini seç.",
+        "answerType": "text",
+        "tags": [
+          "tahmin",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "derinlemesine dusun hangi lig en cok izledigin gruptan birini sec",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tahmin",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.353Z",
+        "updatedAt": "2026-08-27T22:06:00.353Z",
+        "correctAnswer": "cevap",
+        "qualityScore": 95,
+        "id": "content-cat-spor-0240"
+      }
+    ],
+    "cat-oyun": [
+      {
+        "categoryId": "cat-oyun",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Hangi harita en çok kazandığın? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hangi harita en cok kazandgn dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.353Z",
+        "updatedAt": "2026-08-27T22:06:00.353Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-oyun-0000"
+      },
+      {
+        "categoryId": "cat-oyun",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Hangi harita en çok kazandığın? İlk buluşmada sorulur mu?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hangi harita en cok kazandgn ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.354Z",
+        "updatedAt": "2026-08-27T22:06:00.354Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-oyun-0060"
+      },
+      {
+        "categoryId": "cat-oyun",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Hangi harita favorin? Gece muhabbeti için mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hangi harita favorin gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.354Z",
+        "updatedAt": "2026-08-27T22:06:00.354Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-oyun-0120"
+      },
+      {
+        "categoryId": "cat-oyun",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Hangi harita favorin? Farklı cevaplar çıkar mı?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "hangi harita favorin farkl cevaplar ckar m",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.355Z",
+        "updatedAt": "2026-08-27T22:06:00.355Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-oyun-0180"
+      },
+      {
+        "categoryId": "cat-oyun",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Derinlemesine düşün: Hangi harita favorin? Gruptan birini seç.",
+        "answerType": "text",
+        "tags": [
+          "tahmin",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "derinlemesine dusun hangi harita favorin gruptan birini sec",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tahmin",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.356Z",
+        "updatedAt": "2026-08-27T22:06:00.356Z",
+        "correctAnswer": "cevap",
+        "qualityScore": 95,
+        "id": "content-cat-oyun-0240"
+      }
+    ],
+    "cat-cocukluk": [
+      {
+        "categoryId": "cat-cocukluk",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Küçükken en unutamadığın arkadaş kim? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "kucukken en unutamadgn arkadas kim dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.356Z",
+        "updatedAt": "2026-08-27T22:06:00.356Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-cocukluk-0000"
+      },
+      {
+        "categoryId": "cat-cocukluk",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Küçükken en unutamadığın arkadaş kim? İlk buluşmada sorulur mu?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "kucukken en unutamadgn arkadas kim ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.357Z",
+        "updatedAt": "2026-08-27T22:06:00.357Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-cocukluk-0060"
+      },
+      {
+        "categoryId": "cat-cocukluk",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Çocukken en komik hediye kim? Gece muhabbeti için mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "cocukken en komik hediye kim gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.358Z",
+        "updatedAt": "2026-08-27T22:06:00.358Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-cocukluk-0120"
+      },
+      {
+        "categoryId": "cat-cocukluk",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Çocukken en komik hediye kim? Farklı cevaplar çıkar mı?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "cocukken en komik hediye kim farkl cevaplar ckar m",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.358Z",
+        "updatedAt": "2026-08-27T22:06:00.358Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-cocukluk-0180"
+      },
+      {
+        "categoryId": "cat-cocukluk",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "İlkokulda en utandığın arkadaş ne? Beklentiyi kır.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "ilkokulda en utandgn arkadas ne beklentiyi kr",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.359Z",
+        "updatedAt": "2026-08-27T22:06:00.359Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-cocukluk-0240"
+      }
+    ],
+    "cat-18": [
+      {
+        "categoryId": "cat-18",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Flörtte en samimi özellik nedir? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "18+",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "flortte en samimi ozellik nedir dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.360Z",
+        "updatedAt": "2026-08-27T22:06:00.360Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-18-0000"
+      },
+      {
+        "categoryId": "cat-18",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Flörtte en samimi özellik nedir? İlk buluşmada sorulur mu?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "18+",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "flortte en samimi ozellik nedir ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.360Z",
+        "updatedAt": "2026-08-27T22:06:00.360Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-18-0060"
+      },
+      {
+        "categoryId": "cat-18",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Yetişkin bir ilişkide en cesur itiraf nedir? Gece muhabbeti için mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "18+",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "yetiskin bir iliskide en cesur itiraf nedir gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.364Z",
+        "updatedAt": "2026-08-27T22:06:00.364Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-18-0120"
+      },
+      {
+        "categoryId": "cat-18",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Romantik bir ortamda en komik itiraf ne olurdu? Yüzeysel mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d3"
+        ],
+        "ageRating": "18+",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "romantik bir ortamda en komik itiraf ne olurdu yuzeysel mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.364Z",
+        "updatedAt": "2026-08-27T22:06:00.364Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-18-0180"
+      },
+      {
+        "categoryId": "cat-18",
+        "type": "challenge",
+        "difficulty": 1,
+        "prompt": "Romantik bir kompliman paylaş. Kısa tut.",
+        "answerType": "action",
+        "tags": [
+          "tercih",
+          "challenge",
+          "d1"
+        ],
+        "ageRating": "18+",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "romantik bir kompliman paylas ksa tut",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.365Z",
+        "updatedAt": "2026-08-27T22:06:00.365Z",
+        "qualityScore": 95,
+        "id": "content-cat-18-0240"
+      }
+    ],
+    "cat-kim-daha": [
+      {
+        "categoryId": "cat-kim-daha",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Arkadaşlarınızdan kim daha inatçı derdin? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "arkadaslarnzdan kim daha inatc derdin dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.366Z",
+        "updatedAt": "2026-08-27T22:06:00.366Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-kim-daha-0000"
+      },
+      {
+        "categoryId": "cat-kim-daha",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Arkadaşlarınızdan kim daha inatçı derdin? İlk buluşmada sorulur mu?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "arkadaslarnzdan kim daha inatc derdin ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.366Z",
+        "updatedAt": "2026-08-27T22:06:00.366Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-kim-daha-0060"
+      },
+      {
+        "categoryId": "cat-kim-daha",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Arkadaşlarınızdan kim daha geç kalır ? Gece muhabbeti için mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "arkadaslarnzdan kim daha gec kalr gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.367Z",
+        "updatedAt": "2026-08-27T22:06:00.367Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-kim-daha-0120"
+      },
+      {
+        "categoryId": "cat-kim-daha",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Arkadaşlarınızdan kim daha geç kalır ? Farklı cevaplar çıkar mı?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "arkadaslarnzdan kim daha gec kalr farkl cevaplar ckar m",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.368Z",
+        "updatedAt": "2026-08-27T22:06:00.368Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-kim-daha-0180"
+      },
+      {
+        "categoryId": "cat-kim-daha",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Kim daha yemek yer ? Beklentiyi kır.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "kim daha yemek yer beklentiyi kr",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.368Z",
+        "updatedAt": "2026-08-27T22:06:00.368Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-kim-daha-0240"
+      }
+    ],
+    "cat-arkadaslik-krizi": [
+      {
+        "categoryId": "cat-arkadaslik-krizi",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Dostluk ilişkisinde en garip durum ne yapardın? Düşün ve söyle.",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "dostluk iliskisinde en garip durum ne yapardn dusun ve soyle",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.369Z",
+        "updatedAt": "2026-08-27T22:06:00.369Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-arkadaslik-krizi-0000"
+      },
+      {
+        "categoryId": "cat-arkadaslik-krizi",
+        "type": "question",
+        "difficulty": 1,
+        "prompt": "Dostluk ilişkisinde en garip durum ne yapardın? İlk buluşmada sorulur mu?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "dostluk iliskisinde en garip durum ne yapardn ilk bulusmada sorulur mu",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.370Z",
+        "updatedAt": "2026-08-27T22:06:00.370Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-arkadaslik-krizi-0060"
+      },
+      {
+        "categoryId": "cat-arkadaslik-krizi",
+        "type": "question",
+        "difficulty": 2,
+        "prompt": "Arkadaş grubunda en komik kriz nasıl biter? Gece muhabbeti için mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d2"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "arkadas grubunda en komik kriz nasl biter gece muhabbeti icin mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.370Z",
+        "updatedAt": "2026-08-27T22:06:00.370Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-arkadaslik-krizi-0120"
+      },
+      {
+        "categoryId": "cat-arkadaslik-krizi",
+        "type": "question",
+        "difficulty": 3,
+        "prompt": "Kıskançlık anında en zor kriz ne yapardın? Yüzeysel mi?",
+        "answerType": "choice",
+        "tags": [
+          "tercih",
+          "question",
+          "d3"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "kskanclk annda en zor kriz ne yapardn yuzeysel mi",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.371Z",
+        "updatedAt": "2026-08-27T22:06:00.371Z",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kesinlikle",
+            "isCorrect": true
+          },
+          {
+            "id": "b",
+            "text": "Pek değil"
+          },
+          {
+            "id": "c",
+            "text": "Duruma göre"
+          },
+          {
+            "id": "d",
+            "text": "Hiç"
+          }
+        ],
+        "correctAnswer": "a",
+        "qualityScore": 95,
+        "id": "content-cat-arkadaslik-krizi-0180"
+      },
+      {
+        "categoryId": "cat-arkadaslik-krizi",
+        "type": "challenge",
+        "difficulty": 1,
+        "prompt": "Barışma anındaki olay yüzünü göster. Kısa tut.",
+        "answerType": "action",
+        "tags": [
+          "tercih",
+          "challenge",
+          "d1"
+        ],
+        "ageRating": "all",
+        "premium": true,
+        "active": true,
+        "moderationStatus": "approved",
+        "qualityStatus": "active",
+        "locale": "tr-TR",
+        "contentVersion": "2026.1",
+        "normalizedIdentity": "barsma anndaki olay yuzunu goster ksa tut",
+        "aiGenerated": false,
+        "safetyFlags": [],
+        "diversityTheme": "tercih",
+        "usageCount": 0,
+        "completionCount": 0,
+        "skipCount": 0,
+        "timeoutCount": 0,
+        "reportCount": 0,
+        "averageResponseTimeMs": 0,
+        "createdAt": "2026-08-27T22:06:00.372Z",
+        "updatedAt": "2026-08-27T22:06:00.372Z",
+        "qualityScore": 95,
+        "id": "content-cat-arkadaslik-krizi-0240"
+      }
+    ]
+  }
+}

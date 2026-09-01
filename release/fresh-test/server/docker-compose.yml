@@ -1,0 +1,34 @@
+version: '3.9'
+
+# Development-only: PostgreSQL + Redis for local backend work.
+# Production stack: infra/docker-compose.prod.yml
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: nkt
+      POSTGRES_PASSWORD: nkt_dev_password
+      POSTGRES_DB: nkt
+    ports:
+      - '5434:5432'
+    volumes:
+      - nkt_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U nkt']
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - '6379:6379'
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+volumes:
+  nkt_pg_data:

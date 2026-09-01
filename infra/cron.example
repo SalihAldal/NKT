@@ -1,0 +1,11 @@
+# NKT Production Cron Examples
+# Install on VPS: crontab -e
+
+# Daily database backup at 03:00 UTC
+0 3 * * * cd /opt/nkt && ENV_FILE=infra/env/.env.production infra/scripts/backup-db.sh >> /var/log/nkt-backup.log 2>&1
+
+# Health monitor every 5 minutes
+*/5 * * * * cd /opt/nkt && ENV_FILE=infra/env/.env.production infra/scripts/monitor.sh >> /var/log/nkt-monitor.log 2>&1
+
+# Weekly VPS audit (Sundays 04:00 UTC)
+0 4 * * 0 cd /opt/nkt && infra/scripts/vps-audit.sh >> /var/log/nkt-audit.log 2>&1

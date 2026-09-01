@@ -1,0 +1,141 @@
+{
+  "_comment": "NKT Store Submission Package — configure all CONFIGURE_* fields before submission. Do not use fake URLs.",
+  "version": "1.2.0",
+  "build": {
+    "ios": {
+      "buildNumber": "CONFIGURE_BEFORE_SUBMISSION",
+      "bundleIdentifier": "com.nkt.app"
+    },
+    "android": {
+      "versionCode": "CONFIGURE_BEFORE_SUBMISSION",
+      "applicationId": "com.nkt.app"
+    }
+  },
+  "app": {
+    "name": "NKT",
+    "subtitle": "Ne Kadar Tanıyorsun?",
+    "primaryLanguage": "tr",
+    "category": {
+      "appStore": "Games",
+      "googlePlay": "GAME_TRIVIA"
+    },
+    "ageRating": {
+      "appStore": "17+",
+      "googlePlay": "Mature 17+",
+      "reason": "+18 category, user-generated content, social features"
+    }
+  },
+  "store": {
+    "keywords": ["quiz", "friends", "party", "trivia", "multiplayer", "arkadaş", "oyun"],
+    "shortDescription": "CONFIGURE_BEFORE_SUBMISSION",
+    "fullDescription": "CONFIGURE_BEFORE_SUBMISSION",
+    "privacyUrl": "CONFIGURE_BEFORE_SUBMISSION",
+    "termsUrl": "CONFIGURE_BEFORE_SUBMISSION",
+    "supportUrl": "CONFIGURE_BEFORE_SUBMISSION",
+    "supportEmail": "CONFIGURE_BEFORE_SUBMISSION",
+    "marketingUrl": "CONFIGURE_BEFORE_SUBMISSION"
+  },
+  "monetization": {
+    "model": "freemium",
+    "subscriptions": [
+      {
+        "id": "com.nkt.app.premium.weekly",
+        "period": "weekly",
+        "platforms": ["ios", "android"]
+      },
+      {
+        "id": "com.nkt.app.premium.monthly",
+        "period": "monthly",
+        "platforms": ["ios", "android"]
+      }
+    ],
+    "premiumBenefits": [
+      "Premium kategorilere erişim",
+      "Premium oda oluşturma",
+      "Özel kategori oluşturma",
+      "Reklamsız deneyim"
+    ],
+    "restorePurchase": true,
+    "autoRenewDisclosure": true
+  },
+  "ads": {
+    "containsAds": true,
+    "types": ["banner", "interstitial", "rewarded"],
+    "premiumAdFree": true
+  },
+  "dataCollection": {
+    "categories": [
+      "account identifiers",
+      "profile information",
+      "user-generated content",
+      "device push token",
+      "analytics events",
+      "purchase metadata",
+      "game/quiz history"
+    ],
+    "notCollected": [
+      "precise location",
+      "contacts",
+      "cross-app tracking (default)"
+    ],
+    "reference": "release/data-safety-inventory.json"
+  },
+  "ugc": {
+    "hasUserGeneratedContent": true,
+    "features": ["quiz", "custom categories", "profile", "rooms"],
+    "moderation": true,
+    "report": true,
+    "block": true,
+    "ageRestrictedContent": true
+  },
+  "categories": {
+    "total": 20,
+    "free": 5,
+    "premium": 15,
+    "list": [
+      { "order": 1, "name": "Korku", "free": true },
+      { "order": 2, "name": "Cesaret", "free": true },
+      { "order": 3, "name": "Ne Kadar Tanıyorsun?", "free": true },
+      { "order": 4, "name": "Utandıran Sorular", "free": true },
+      { "order": 5, "name": "Gece Muhabbeti", "free": true },
+      { "order": 6, "name": "Aşk & İlişkiler", "free": false },
+      { "order": 7, "name": "İtiraflar", "free": false },
+      { "order": 8, "name": "Parti", "free": false },
+      { "order": 9, "name": "Eğlence", "free": false },
+      { "order": 10, "name": "Black Humor", "free": false },
+      { "order": 11, "name": "Tuhaf & Absürt", "free": false },
+      { "order": 12, "name": "Zor Sorular", "free": false },
+      { "order": 13, "name": "Film & Dizi", "free": false },
+      { "order": 14, "name": "Müzik", "free": false },
+      { "order": 15, "name": "Spor", "free": false },
+      { "order": 16, "name": "Oyun", "free": false },
+      { "order": 17, "name": "Çocukluk Anıları", "free": false },
+      { "order": 18, "name": "+18", "free": false, "ageRating": "18+" },
+      { "order": 19, "name": "Kim Daha...?", "free": false },
+      { "order": 20, "name": "Arkadaşlık Krizi", "free": false }
+    ]
+  },
+  "content": {
+    "targetPerCategory": 300,
+    "totalTarget": 6000,
+    "datasetPath": "admin/src/data/content-dataset.json"
+  },
+  "screenshots": {
+    "workflow": "release/screenshot-asset-workflow.md",
+    "requiredSizes": {
+      "ios": ["6.7\"", "6.1\"", "5.5\""],
+      "android": ["phone", "7-inch-tablet", "10-inch-tablet"]
+    }
+  },
+  "preSubmissionChecklist": [
+    "Configure all URLs in launch-manifest and .env",
+    "Run: npm run audit:final",
+    "Run: npm run audit:content",
+    "EAS production build (iOS + Android)",
+    "VPS deploy with migrations",
+    "Smoke test on staging/production",
+    "App Store Connect / Play Console metadata",
+    "Privacy policy hosted and linked",
+    "Support contact verified"
+  ]
+}

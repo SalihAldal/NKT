@@ -32,6 +32,13 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env.local.backup-*
+infra/env/.env.production
+infra/env/.env.staging
+infra/backups/
+infra/nginx/conf.d/generated/
+infra/nginx/ssl/
+infra/nginx/certbot/
 
 # typescript
 *.tsbuildinfo
@@ -39,3 +46,14 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Local build artifacts
+release/*.apk
+release/*.aab
+release/*.zip
+release/*.xml
+release/*.env*
+release/*credentials*.txt
+release/phase*-room-code*.txt
+release/phase*-users.json
+release/fnxcc2-players.txt

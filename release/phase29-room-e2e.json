@@ -1,0 +1,14 @@
+{
+    "roomId":  "ee819ab7-c420-4a91-9b93-36bc873ee82c",
+    "roomCode":  "HLHRVK",
+    "joiner1":  {
+                    "username":  "phase29_j1_1788271976",
+                    "sessionToken":  "9dd10d83bb823245aff371ee716f5a4ce32bb272a4fd54ce2e521f55eb2d53f9",
+                    "playerId":  "c72a1b31-c883-41ca-b58b-232d76859b4b"
+                },
+    "joiner2":  {
+                    "username":  "phase29_j2_1788271976",
+                    "sessionToken":  "d6521c19a5cdf7f91faa0f838b6b37a1b55ea1b5242adcc80f5c7fa41cf1d0ee",
+                    "playerId":  "7a0e43aa-a1f5-4fd7-bddd-e18498886b02"
+                }
+}

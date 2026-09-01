@@ -1,0 +1,136 @@
+PHASE 26 LIVE VPS E2E EVIDENCE
+VPS: http://76.13.138.159
+Time: 2026-08-28T20:47:51.663Z
+
+PASS     VPS /health | {"status":"ok","timestamp":"2026-08-28T20:46:03.704Z","env":"production"}
+PASS     VPS database
+PASS     VPS redis
+PASS     VPS realtime
+PASS     VPS worker/queues | PASS
+PASS     VPS readiness
+PASS     Socket.IO polling | HTTP 200
+PASS     Admin SPA reachable | HTTP 200
+PASS     API register (5 users)
+FAIL     Premium host grant | USE_MOCK_PAYMENT=false on VPS — store sandbox required
+PASS     API guest login
+PASS     API content categories | count=20
+PASS     Room create | code=QHQFD4
+PASS     Room join b
+PASS     Room join c
+PASS     Room join d
+PASS     Room join e
+PASS     5 player room | players=5
+PASS     Socket.IO connect + auth
+PASS     Lobby realtime room.joined | host saw join
+PASS     5 player socket join
+NOT RUN  Premium category (premium host) | premium grant unavailable — used free category for game
+PASS     Free category fallback for game | Korku
+PASS     Free host premium deny | status=403
+PASS     Game start | be4c4345-d67f-4904-bb7e-e312382e244d
+PASS     Socket game.started event | received
+FAIL     Questions 1-10 difficulty 1
+PASS     Questions 11-20 difficulty 2
+PASS     Questions 21-30 difficulty 3
+PARTIAL  30 question live game
+PASS     Game final result | scores=5
+PASS     Score security (no 999999) | max=691
+PASS     Questioner/Answerer roles | server rejected wrong role in game.service
+PASS     Player disconnect room.left
+PASS     Reconnect + resume game
+NOT RUN  Host disconnect migration | 60s grace — requires timed test
+PASS     Security invalid token | status=401
+PASS     Security user→admin deny | status=401
+PASS     Security invalid room code | status=404
+PASS     Admin login
+PASS     Admin dashboard | users=46
+PASS     Admin content 6000+ | total=6000
+PASS     Admin rooms list
+PASS     Admin room inspector
+PASS     Admin games
+PASS     Admin users
+PASS     Admin categories
+PASS     Admin subscriptions
+PASS     Admin analytics
+FAIL     Admin logout | status=500
+NOT RUN  Rate limit (guest probe) | no 429 in 30 requests
+NOT RUN  Mobile physical device | no device in CI agent
+NOT RUN  Mobile UI live | requires physical device
+NOT RUN  Payment store sandbox | STORE SANDBOX REQUIRED
+NOT RUN  Push notifications live | push NOT_CONFIGURED on VPS
+NOT RUN  Backup live | SSH required
+NOT RUN  Restore live | SSH required
+NOT RUN  VPS reboot | SHARED VPS RISK
+NOT RUN  Server restart | SSH required
+NOT RUN  NNK isolation verify | SSH required
+NOT RUN  Deep link device | physical device required
+NOT RUN  App background/foreground | physical device required
+NOT RUN  Force close restore | physical device required
+NOT RUN  Room expiration timed | requires TTL wait or DB
+
+--- LOG ---
+[2026-08-28T20:46:03.428Z] VPS_URL=http://76.13.138.159
+[2026-08-28T20:46:03.575Z] PASS     VPS /health — {"status":"ok","timestamp":"2026-08-28T20:46:03.704Z","env":"production"}
+[2026-08-28T20:46:03.876Z] PASS     VPS database
+[2026-08-28T20:46:03.877Z] PASS     VPS redis
+[2026-08-28T20:46:03.877Z] PASS     VPS realtime
+[2026-08-28T20:46:03.877Z] PASS     VPS worker/queues — PASS
+[2026-08-28T20:46:03.877Z] PASS     VPS readiness
+[2026-08-28T20:46:03.968Z] PASS     Socket.IO polling — HTTP 200
+[2026-08-28T20:46:04.113Z] PASS     Admin SPA reachable — HTTP 200
+[2026-08-28T20:46:07.022Z] PASS     API register (5 users)
+[2026-08-28T20:46:07.113Z] FAIL     Premium host grant — USE_MOCK_PAYMENT=false on VPS — store sandbox required
+[2026-08-28T20:46:07.200Z] PASS     API guest login
+[2026-08-28T20:46:07.269Z] PASS     API content categories — count=20
+[2026-08-28T20:46:07.367Z] PASS     Room create — code=QHQFD4
+[2026-08-28T20:46:07.469Z] PASS     Room join b
+[2026-08-28T20:46:07.558Z] PASS     Room join c
+[2026-08-28T20:46:07.656Z] PASS     Room join d
+[2026-08-28T20:46:07.741Z] PASS     Room join e
+[2026-08-28T20:46:07.741Z] PASS     5 player room — players=5
+[2026-08-28T20:46:08.358Z] PASS     Socket.IO connect + auth
+[2026-08-28T20:46:08.358Z] PASS     Lobby realtime room.joined — host saw join
+[2026-08-28T20:46:09.216Z] PASS     5 player socket join
+[2026-08-28T20:46:09.815Z] NOT RUN  Premium category (premium host) — premium grant unavailable — used free category for game
+[2026-08-28T20:46:09.815Z] PASS     Free category fallback for game — Korku
+[2026-08-28T20:46:10.464Z] PASS     Free host premium deny — status=403
+[2026-08-28T20:46:10.730Z] PASS     Game start — be4c4345-d67f-4904-bb7e-e312382e244d
+[2026-08-28T20:46:13.274Z] PASS     Socket game.started event — received
+[2026-08-28T20:47:26.376Z] WARN round 19 may not have advanced
+[2026-08-28T20:47:46.327Z] FAIL     Questions 1-10 difficulty 1
+[2026-08-28T20:47:46.327Z] PASS     Questions 11-20 difficulty 2
+[2026-08-28T20:47:46.327Z] PASS     Questions 21-30 difficulty 3
+[2026-08-28T20:47:46.327Z] PARTIAL  30 question live game
+[2026-08-28T20:47:46.410Z] PASS     Game final result — scores=5
+[2026-08-28T20:47:46.410Z] PASS     Score security (no 999999) — max=691
+[2026-08-28T20:47:46.410Z] PASS     Questioner/Answerer roles — server rejected wrong role in game.service
+[2026-08-28T20:47:46.479Z] PASS     Player disconnect room.left
+[2026-08-28T20:47:46.800Z] PASS     Reconnect + resume game
+[2026-08-28T20:47:46.800Z] NOT RUN  Host disconnect migration — 60s grace — requires timed test
+[2026-08-28T20:47:47.888Z] PASS     Security invalid token — status=401
+[2026-08-28T20:47:47.964Z] PASS     Security user→admin deny — status=401
+[2026-08-28T20:47:48.035Z] PASS     Security invalid room code — status=404
+[2026-08-28T20:47:48.531Z] PASS     Admin login
+[2026-08-28T20:47:48.681Z] PASS     Admin dashboard — users=46
+[2026-08-28T20:47:48.769Z] PASS     Admin content 6000+ — total=6000
+[2026-08-28T20:47:48.850Z] PASS     Admin rooms list
+[2026-08-28T20:47:48.929Z] PASS     Admin room inspector
+[2026-08-28T20:47:49.004Z] PASS     Admin games
+[2026-08-28T20:47:49.088Z] PASS     Admin users
+[2026-08-28T20:47:49.173Z] PASS     Admin categories
+[2026-08-28T20:47:49.244Z] PASS     Admin subscriptions
+[2026-08-28T20:47:49.310Z] PASS     Admin analytics
+[2026-08-28T20:47:49.376Z] FAIL     Admin logout — status=500
+[2026-08-28T20:47:51.661Z] NOT RUN  Rate limit (guest probe) — no 429 in 30 requests
+[2026-08-28T20:47:51.661Z] NOT RUN  Mobile physical device — no device in CI agent
+[2026-08-28T20:47:51.661Z] NOT RUN  Mobile UI live — requires physical device
+[2026-08-28T20:47:51.661Z] NOT RUN  Payment store sandbox — STORE SANDBOX REQUIRED
+[2026-08-28T20:47:51.661Z] NOT RUN  Push notifications live — push NOT_CONFIGURED on VPS
+[2026-08-28T20:47:51.661Z] NOT RUN  Backup live — SSH required
+[2026-08-28T20:47:51.661Z] NOT RUN  Restore live — SSH required
+[2026-08-28T20:47:51.661Z] NOT RUN  VPS reboot — SHARED VPS RISK
+[2026-08-28T20:47:51.661Z] NOT RUN  Server restart — SSH required
+[2026-08-28T20:47:51.661Z] NOT RUN  NNK isolation verify — SSH required
+[2026-08-28T20:47:51.661Z] NOT RUN  Deep link device — physical device required
+[2026-08-28T20:47:51.661Z] NOT RUN  App background/foreground — physical device required
+[2026-08-28T20:47:51.661Z] NOT RUN  Force close restore — physical device required
+[2026-08-28T20:47:51.663Z] NOT RUN  Room expiration timed — requires TTL wait or DB
